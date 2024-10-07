@@ -8,7 +8,7 @@ import Wishlist from './components/Wishlist';
 
 function App() {
   const dispatch = useDispatch();
-  // get wushlist
+  // git changes done on update cart
   
   // Get wishlist and cart items from Redux store
   const wishlist = useSelector((state) => state.wishlist?.items || []); // Ensure it's always an array
